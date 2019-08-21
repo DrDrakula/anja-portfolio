@@ -1,0 +1,105 @@
+* {
+  box-sizing: unset;
+}
+
+.App {
+  text-align: center;
+}
+
+#welcome-header {
+  cursor: default;
+}
+
+#welcome-header h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50pt;
+}
+
+#welcome-header h3 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 40pt;
+}
+
+#navbar {
+  align-items: center;
+  justify-content: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #f4c81b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: rgb(233, 46, 25);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#years {
+  transition-duration: 1.5s;
+}
+
+.year {
+  transition-property: transform;
+  transition-duration: 1.5s;
+  cursor: pointer;
+  font-size: 30pt;
+  font-family: 'Lexend Exa', sans-serif;
+  color: #174a88;
+  display: inline-block;
+  margin: 0 85px 0 85px;
+}
+
+
+.successfully-saved.hide-opacity{
+  opacity: 0;
+}
+
+.image {
+  margin: auto;
+  margin: 5px auto 5px auto;
+}
+
+.image-modal {
+  max-width: 200px;
+}
+
+.modal-content {
+  background-color: transparent;
+  flex-direction: unset
+}
+
+#carousel-img {
+  width: 700;
+  
+}
+
+.container {
+  width: auto;
+}
+
+@media (max-width:960px) {
+  #carousel-img {
+    width: 100vw;
+  }
+}
