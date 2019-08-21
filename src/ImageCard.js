@@ -8,7 +8,7 @@ class ImageCard extends Component {
         activeIndex: this.props.activeIndex
     }
 
-    handleShow = () => this.setState({visable: true})
+    handleShow = () => this.setState({visable: true, activeIndex:this.props.activeIndex})
     handleHide = () => this.setState({visable: false})
 
     handleSelect = (selectedIndex, e) => {

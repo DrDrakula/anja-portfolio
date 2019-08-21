@@ -86,12 +86,11 @@
 
 .modal-content {
   background-color: transparent;
-  flex-direction: unset
+  /* flex-direction: unset */
 }
 
 #carousel-img {
-  width: 700;
-  
+  width: 100%;
 }
 
 .container {
@@ -100,6 +99,6 @@
 
 @media (max-width:960px) {
   #carousel-img {
-    width: 100vw;
+    width: 100%;
   }
 }
